@@ -1,0 +1,26 @@
+{
+  "name": "hngi9-task1",
+  "version": "1.0.0",
+  "description": "Setup a server (Host) and Create an (GET) api endoint that returns a  json response.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FadlullahLanre/hngi9-task1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FadlullahLanre/hngi9-task1/issues"
+  },
+  "homepage": "https://github.com/FadlullahLanre/hngi9-task1#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
+  }
+}
