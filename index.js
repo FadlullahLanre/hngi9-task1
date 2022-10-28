@@ -1,11 +1,15 @@
 const express = require('express');
 const dotenv = require('dotenv');
+const cors = require('cors');
 dotenv.config({ path: './config.env' });
 const userRoute = require('./routes/user');
 const connectDB = require('./DB/connect');
 
 const app = express();
 
+app.use(cors({
+	origin : '*'
+}))
 app.use(express.json());
 
 app.use('/api/user', userRoute);
