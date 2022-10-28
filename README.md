@@ -8,8 +8,5 @@ Sample Response Format
 ## Endpoints
 The following endpoints are available on this server 
 
- `/api/uer/` : to create a new user.
+ `/api/user/` : to retrieve a user.
 
- `/api/user/` : to get all users.
-
- `/api/user/:id` : to retrieve a single user by id.
