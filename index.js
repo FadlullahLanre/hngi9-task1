@@ -10,7 +10,7 @@ app.use(cors({
 }))
 app.use(express.json());
 
-app.use('/api/arth', userRoute);
+app.use('/api/arith', userRoute);
 
 app.all('*', (req, res, next) => {
 	

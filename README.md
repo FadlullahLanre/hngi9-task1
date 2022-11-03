@@ -10,5 +10,5 @@ Sample Response Format
 ## Endpoints
 The following endpoints are available on this server 
 
- `/api/user/` : to retrieve a user.
+ `/api/arith/` : to perform a simple arithmetic operation on x and y.
 
