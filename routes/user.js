@@ -2,10 +2,10 @@ const express = require("express")
 const router = express.Router();
 
 const {
-    returnUser, postOperation
+     postOperation
 } = require('../controller/user')
 
-router.route('/').get(returnUser).post(postOperation)
+router.route('/').post(postOperation)
 
 
 module.exports = router
