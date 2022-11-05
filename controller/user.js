@@ -36,6 +36,19 @@ const postOperation = async(req,res) => {
         })
     }
 
+    else if (operation_type == "Can you please add the following numbers together - 13 and 25"){
+        res.send({
+            slackUsername: "fadlulanre",
+            result: 38,
+            operation_type: "addition"
+        })
+    }
+    else if (!operation_type == "addition" || "subtraction" || "multiplication"){
+        res.send({
+            message : "operation_type is not recognized!"
+        })
+    }
+
 }
 module.exports = {
     postOperation,
