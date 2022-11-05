@@ -12,10 +12,10 @@ app.use(express.json());
 
 app.use('/api/arith', userRoute);
 
-app.all('*', (req, res, next) => {
+// app.all('*', (req, res, next) => {
 	
-	next(res.send(`Can't find ${req.originalUrl} on this server`, 404));
-});
+// 	next(res.send(`Can't find ${req.originalUrl} on this server`, 404));
+// });
 
 const port = process.env.PORT || 4000;
 const start = async () => {
